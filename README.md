@@ -18,7 +18,7 @@ con el objetivo de practicar el consumo de múltiples **APIs** en un mismo formu
 ## 📦 Instalación
 
 ```bash
-git clone https://github.com/usuario/proyecto.git
+git clone https://github.com/JuanAricapa/Search-Songs.git
 npm install
 npm run dev
 ```
