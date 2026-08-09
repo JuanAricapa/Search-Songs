@@ -37,6 +37,10 @@
   text-align: center;
 }
 
+.gridContainer input[type="text"]:hover {
+  outline: thin solid rgb(103, 103, 103);
+}
+
 .gridContainer input[type="text"]:focus {
   outline: thin solid rgb(177, 177, 177);
 }
@@ -57,7 +61,15 @@
   cursor: pointer;
 }
 
+.inputSubmit:hover {
+  background: rgb(26, 30, 70);
+  outline: thin solid rgb(103, 103, 103);
+}
+
 .blurEffect {
-  box-shadow: 0 0 1px rgb(28, 30, 75), 0 0 3px rgb(28, 30, 75),
-    0 0 6px rgb(28, 30, 75), 0 0 9px rgb(28, 30, 75);
+  box-shadow:
+    0 0 1px rgb(28, 30, 75),
+    0 0 3px rgb(28, 30, 75),
+    0 0 6px rgb(28, 30, 75),
+    0 0 9px rgb(28, 30, 75);
 }

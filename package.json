@@ -8,12 +8,10 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "fake-api": "json-server --watch src/api/db.json --port 5000"
+    "start": "npm run dev"
   },
   "dependencies": {
-    "react": "^19.2.6",
-    "react-dom": "^19.2.6",
-    "react-router-dom": "^7.18.2"
+    "react": "^19.2.6"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",

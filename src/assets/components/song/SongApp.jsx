@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
+import styles from "./songApp.module.css";
 import { SongBio } from "./SongBio";
 import { SongLyrics } from "./SongLyrics";
 import { SongForm } from "./SongForm";
 import { Loader } from "./Loader";
 import { ajax } from "../../helpers/ajax.js";
 import { ErrorComponent } from "./ErrorComponent.jsx";
-import "./songApp.css";
 
 export function SongApp() {
   const [formData, setFormData] = useState(null);
@@ -81,13 +81,13 @@ export function SongApp() {
   }, [formData]);
 
   return (
-    <section className="song-section-container">
+    <section className={styles.songSectionContainer}>
       <h1>Search the information about your favorite song and artist</h1>
       <SongForm handleFormData={handleFormData}></SongForm>
       {error && <ErrorComponent error={error} />}
 
       {allData && (
-        <div className="song-section-grid">
+        <div className={styles.songSectionGrid}>
           {allData && (
             <>
               {allData.lyricsData && <SongLyrics data={allData.lyricsData} />}
