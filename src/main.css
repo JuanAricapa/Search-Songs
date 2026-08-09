@@ -1,0 +1,75 @@
+/* Personal Normalize */
+
+:root {
+  --gb-color: rgb(31, 30, 54);
+}
+
+html {
+  font-size: 16px;
+  box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  background-color: var(--gb-color);
+}
+
+main {
+  display: block;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1.125rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block;
+  max-width: 100%;
+}
+
+img {
+  object-fit: cover;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}

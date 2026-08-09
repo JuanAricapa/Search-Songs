@@ -1,0 +1,39 @@
+.container {
+  width: 100%;
+}
+
+.container figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container img {
+  max-width: 15rem;
+}
+
+.container figcaption {
+  font-size: 0.7;
+}
+
+.container h2 {
+  text-align: center;
+}
+
+.container p,
+.container dd {
+  color: rgb(231, 231, 231);
+}
+
+.container dt{
+  font-weight: bold;
+}
+
+.container dd {
+  margin-bottom: 1.5rem;
+  margin: .5rem;
+}
+
+.container .bio {
+  font-size: 1rem;
+}

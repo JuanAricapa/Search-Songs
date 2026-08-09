@@ -1,0 +1,30 @@
+{
+  "users": [
+    {
+      "name": "juan",
+      "lastName": "aricapa",
+      "id": "1"
+    },
+    {
+      "name": "laura",
+      "lastName": "giraldo",
+      "id": "2"
+    },
+    {
+      "name": "danna",
+      "lastName": "sofía",
+      "id": "3"
+    },
+    {
+      "name": "juanita",
+      "lastName": "maldonado",
+      "id": "1s-_7ZMcnZA"
+    },
+    {
+      "name": "angelica",
+      "lastName": "galvis",
+      "id": "TPx74m0-Nfg"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

@@ -1,0 +1,30 @@
+.song-section-container {
+  width: 100%;
+  height: auto;
+  padding: 1rem;
+}
+
+.song-section-container h1 {
+  color: rgb(235, 235, 235);
+  margin: 1rem 0;
+}
+
+.song-section-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  color: white;
+  border: thick solid rgb(28, 30, 75);
+  background-color: rgb(24, 26, 53);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  justify-items: center;
+}
+
+/* PC Responsive */
+@media (min-width: 480px) {
+  .song-section-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
